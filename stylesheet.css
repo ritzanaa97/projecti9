@@ -201,21 +201,6 @@ header {
 #i3:checked ~ .nav #dot3 {
   background: #00ff00;
 }
-
-/* dibawah kode bagian testimoni */
-.testimony {
-  background-color: #f7f7f7;
-}
-.testimony h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.testi-icon img {
-  width: 500px;
-  height: 250px;
-  margin-left: 30px;
-  align-content: center;
-}
 /* dibawah kode bagian footer */
 footer h2 {
   width: 125px;
