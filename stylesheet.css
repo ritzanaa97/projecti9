@@ -83,34 +83,13 @@ header {
   text-align: center;
 }
 
-/* dibawah kode bagian product */
+/* dibawah kode bagian article */
 .article {
-  border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
-}
-.contents-item {
-  float:left;
-  padding:10px 20px 33px 25px;
-  margin-right:20px;
-  margin-left:50px;
-  align-content: center;
-}
-
-.contents-item h4{
-  font-size: 16px;
-  margin-top: 30px;
-}
-.contents-item p1{
-  font-size: 14px;
-  margin-top: 5x;
-}
-.contents-item p2{
-  font-size: 14px;
-  margin-top: 5px;
 }
 
 .heading {
@@ -127,12 +106,37 @@ header {
   font-size: 20px;
   margin-top: 50px;
 }
+.contents-item {
+  float:left;
+  padding:33px 50px 33px 25px;
+  margin-right:20px;
+  margin-left:50px;
+}
+
+.contents-item h4{
+  font-size: 16px;
+  margin-top: 30px;
+}
+.contents-item p1{
+  font-size: 14px;
+  margin-top: 5x;
+}
+.contents-item p2{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
 /* dibawah kode bagian product */
 .product {
-  border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
   background-color: #f7f7f7;
+}
+.product h2{
+  color:  #f7f7f7;
+}
+.product h3{
+  color:  #f7f7f7;
 }
 .container1 {
   margin: 0 auto;
@@ -141,7 +145,10 @@ header {
   width: 60%;
   height: 0;
   padding-bottom: 30%;
-  background: #708090;
+  background:  #f7f7f7;
+}
+.container1 h2{
+  color: #696969;
 }
 .slide-img {
   position: absolute;
@@ -201,9 +208,10 @@ header {
 #i3:checked ~ .nav #dot3 {
   background: #00ff00;
 }
+
 /* dibawah kode bagian footer */
 footer h2 {
-  width: 125px;
+  width: 100px;
 }
 
 footer p {
@@ -212,8 +220,7 @@ footer p {
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  margin-top: 20px
+  height: 80px;
   background-color: rgba(85, 107, 47, 0.9);
-  width: 100%;
 }
