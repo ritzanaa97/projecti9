@@ -214,5 +214,6 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: rgba(85, 107, 47, 0.9)
+  background-color: rgba(85, 107, 47, 0.9);
+  width: 100%;
 }
